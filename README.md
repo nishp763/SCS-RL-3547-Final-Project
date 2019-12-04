@@ -30,6 +30,9 @@ Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
 1. Go to https://visualstudio.microsoft.com/downloads/
 2. Scroll down to the bottom of the page and click on `Tools for Visual Studio 2019`.
 3. Then browse to `Build Tools for Visual Studio 2019` and click on the Download button to download the file.
+4. Once you've downloaded it, run the executable file to begin the installation.
+5. Once the application opens up, click on the `Workloads` tab.
+6. Select the `C++ build tools` by clicking on the checkbox and begin the installation.
 </br>
 
 Install & Setup SWIG
@@ -39,7 +42,8 @@ Install & Setup SWIG
 3. Open & Extract the `swigwin-4.0.1.zip` folder.
 4. Then go to the extracted `swigwin-4.0.1` folder.
 5. Make sure there is `swig.exe` file inside the `swigwin-4.0.1` folder.
-6. 
+6. Copy the entire `swigwin-4.0.1` folder inside the `C:\` drive.
+</br>
 
 ## Presentation
 - [PDF]()
