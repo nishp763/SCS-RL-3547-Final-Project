@@ -25,13 +25,13 @@ Anaconda Packages:
 - `pyglet` (v1.4.8) (Anaconda Package) - https://anaconda.org/conda-forge/pyglet
 
 ### Windows Instructions
-Install & Setup **Microsoft Visual C++ Build Tools for Visual Studio 2019**
+Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
 ***
 1. Go to https://visualstudio.microsoft.com/downloads/
 2. Scroll down to the bottom of the page and click on `Tools for Visual Studio 2019`.
 3. Then browse to `Build Tools for Visual Studio 2019` and click on the Download button to download the file.
-
-Install & Setup **SWIG**
+</br>
+Install & Setup SWIG
 ***
 1. Go to http://www.swig.org/download.html to get the latest version of the `SWIG` library or go to https://sourceforge.net/projects/swig/files/swigwin/swigwin-4.0.1/swigwin-4.0.1.zip/download?use_mirror=iweb to download v4.0.1 directly.
 2. Make sure to download `swigwin-x.x.x` for windows as indicated by the `win` in the file name. Please note `x` indicates the version number.
