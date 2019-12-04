@@ -54,7 +54,7 @@ Setup Windows Environment Variable
 3. Under the `Environment Varialbes` window. Underneath `User variables for Admin` select `Path` and click on the `Edit` button. Note if the `Path` variable doesnt exist in the `User variables for Admin`, then create it by clicking on `New` button.
 4. Browse to the end of `Variable value` and ensure there is a `;` present, if not add it by typing `;` key on the keyboard. Paste the path that was copied to the `ucrt` folder. In other words paste `C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt` and add `;` to indicate the end of the entry.
 3. Add this`C:\swigwin-4.0.1\;` and `C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build;` to the `Variable value` as well.
-4. Restart your computer and you should be now ready to install the Open AI Gym and other required packages.
+4. Restart your computer and now you should be ready to install the Open AI Gym as well as other required packages.
 
 ## Presentation
 - [PDF]()
