@@ -25,6 +25,16 @@ Anaconda Packages:
 - `pyglet` (v1.4.8) (Anaconda Package) - https://anaconda.org/conda-forge/pyglet
 
 ### Windows Instructions
+Install & Setup SWIG
+***
+1. Go to http://www.swig.org/download.html to get the latest version of the `SWIG` library or go to https://sourceforge.net/projects/swig/files/swigwin/swigwin-4.0.1/swigwin-4.0.1.zip/download?use_mirror=iweb to download v4.0.1 directly.
+2. Make sure to download `swigwin-x.x.x` for windows as indicated by the `win` in the file name. Please note `x` indicates the version number.
+3. Open & Extract the `swigwin-4.0.1.zip` folder.
+4. Then go to the extracted `swigwin-4.0.1` folder.
+5. Make sure there is `swig.exe` file inside the `swigwin-4.0.1` folder.
+6. Copy the entire `swigwin-4.0.1` folder inside the `C:\` drive.
+</br>
+
 Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
 ***
 1. Go to https://visualstudio.microsoft.com/downloads/
@@ -35,15 +45,10 @@ Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
 6. Select the `C++ build tools` by clicking on the checkbox and begin the installation.
 </br>
 
-Install & Setup SWIG
+Setup Windows Environment Variable
 ***
-1. Go to http://www.swig.org/download.html to get the latest version of the `SWIG` library or go to https://sourceforge.net/projects/swig/files/swigwin/swigwin-4.0.1/swigwin-4.0.1.zip/download?use_mirror=iweb to download v4.0.1 directly.
-2. Make sure to download `swigwin-x.x.x` for windows as indicated by the `win` in the file name. Please note `x` indicates the version number.
-3. Open & Extract the `swigwin-4.0.1.zip` folder.
-4. Then go to the extracted `swigwin-4.0.1` folder.
-5. Make sure there is `swig.exe` file inside the `swigwin-4.0.1` folder.
-6. Copy the entire `swigwin-4.0.1` folder inside the `C:\` drive.
-</br>
+1. Open the Windows Environment Variable setting window by running the following command in Run Window `rundll32 sysdm.cpl,EditEnvironmentVariables`. Alternatively it can be opened by going to `Start->Right Click on My Computer -> Select Properties -> Click on Advanced system settings -> Click on Advanced tab -> Click on Environment Variables button`.
+
 
 ## Presentation
 - [PDF]()
