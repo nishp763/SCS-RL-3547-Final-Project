@@ -47,7 +47,8 @@ Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
 
 Setup Windows Environment Variable
 ***
-1. Open the Windows Environment Variable setting window by running the following command in Run Window `rundll32 sysdm.cpl,EditEnvironmentVariables`. Alternatively it can be opened by going to `Start->Right Click on My Computer -> Select Properties -> Click on Advanced system settings -> Click on Advanced tab -> Click on Environment Variables button`.
+1. Open the Windows Environment Variable setting window by running the following command in Run Window `rundll32 sysdm.cpl,EditEnvironmentVariables`. Alternatively it can be opened by going: 
+ 1.`Start->Right Click on My Computer -> Select Properties -> Click on Advanced system settings -> Click on Advanced tab -> Click on Environment Variables button`.
 
 
 ## Presentation
