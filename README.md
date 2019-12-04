@@ -25,6 +25,11 @@ Anaconda Packages:
 - `pyglet` (v1.4.8) (Anaconda Package) - https://anaconda.org/conda-forge/pyglet
 
 ### Windows Instructions
+Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
+***
+1. Go to https://visualstudio.microsoft.com/downloads/
+2. Scroll down to the bottom of the page and click on `Tools for Visual Studio 2019`.
+3. Then browse to `Build Tools for Visual Studio 2019` and click on the Download button to download the file.
 
 
 
