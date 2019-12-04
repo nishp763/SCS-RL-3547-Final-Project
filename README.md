@@ -24,9 +24,9 @@ Anaconda Packages:
 - `pystan` (v2.19.1.1) (Anaconda Package) - https://anaconda.org/conda-forge/pystan
 - `pyglet` (v1.4.8) (Anaconda Package) - https://anaconda.org/conda-forge/pyglet
 
-### Windows
+### Windows Instructions
 
-### Mac OSX
+
 
 ## Presentation
 - [PDF]()
