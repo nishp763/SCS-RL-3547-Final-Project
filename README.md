@@ -23,6 +23,8 @@ Anaconda Packages:
 - `Swig` (v3.0.12) (Anaconda Package) - https://anaconda.org/anaconda/swig
 - `pystan` (v2.19.1.1) (Anaconda Package) - https://anaconda.org/conda-forge/pystan
 - `pyglet` (v1.4.8) (Anaconda Package) - https://anaconda.org/conda-forge/pyglet
+</br>
+Note: If you see errors during installation in regards to `Mujoco.py` kindly ignore it as we will not be using the `MUJOCO` environment. If you are windows user please check out the Windows Instructions to make sure you have the necessary setup before installing any of the above libraries as you may run into errors.
 
 ### Windows Instructions
 Install & Setup SWIG
@@ -47,9 +49,12 @@ Install & Setup Microsoft Visual C++ Build Tools for Visual Studio 2019
 
 Setup Windows Environment Variable
 ***
-1. Open the Windows Environment Variable setting window by running the following command in Run Window `rundll32 sysdm.cpl,EditEnvironmentVariables`. Alternatively it can be opened by going: 
- 1.`Start->Right Click on My Computer -> Select Properties -> Click on Advanced system settings -> Click on Advanced tab -> Click on Environment Variables button`.
-
+1. Open the Windows Environment Variable setting window by running the following command in Run Window `rundll32 sysdm.cpl,EditEnvironmentVariables`. Alternatively it can be opened by going to`Start` -> Right Click on `My Computer` -> Select `Properties` -> Click on `Advanced system settings` -> Click on `Advanced` tab -> Click on `Environment Variables` button.
+2. In a new window go to `C:\Program Files (x86)\Windows Kits\10\Include`, then open the folder it maybe similar to `10.0.18362.0`. Underneath that folder, open `ucrt`. Your Path in the Explorer should be similar to `C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt`. Copy the path to the `ucrt` folder.
+3. Under the `Environment Varialbes` window. Underneath `User variables for Admin` select `Path` and click on the `Edit` button. Note if the `Path` variable doesnt exist in the `User variables for Admin`, then create it by clicking on `New` button.
+4. Browse to the end of `Variable value` and ensure there is a `;` present, if not add it by typing `;` key on the keyboard. Paste the path that was copied to the `ucrt` folder. In other words paste `C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt` and add `;` to indicate the end of the entry.
+3. Add this`C:\swigwin-4.0.1\;` and `C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build;` to the `Variable value` as well.
+4. Restart your computer and you should be now ready to install the Open AI Gym and other required packages.
 
 ## Presentation
 - [PDF]()
