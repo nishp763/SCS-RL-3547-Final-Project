@@ -16,6 +16,15 @@ Landing pad is always at coordinates (0,0). Coordinates are the first two number
 Navigate a lander to its landing pad safely and have a safe touch down.
 
 ## Setup
+Libraries Used:
+- `Open AI Gym` (v0.15.4) - https://github.com/openai/gym
+- `Open AI Box2D-py` (v2.3.8)(Comes with gym) - https://github.com/openai/box2d-py
+- `Swig` (v3.0.12)(Anaconda Package) - https://anaconda.org/anaconda/swig
+- `pystan` (v2.19.1.1)(Anaconda Package) - https://anaconda.org/conda-forge/pystan
+- 
+### Windows
+
+### Mac OSX
 
 ## Presentation
 - [PDF]()
