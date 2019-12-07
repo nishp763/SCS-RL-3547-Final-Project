@@ -18,6 +18,11 @@ Landing pad is always at coordinates (0,0). Coordinates are the first two number
 Navigate a lander to its landing pad safely and have a safe touch down. A sample of heuristic landing is shown below.<br><br>
 ![Heuristic Landing](assets/Test_Outcome.gif)
 
+# Our Approach
+## Algorithm
+***
+
+
 ## Setup
 Libraries Used:
 - `Open AI Gym` (v0.15.4) - https://github.com/openai/gym
