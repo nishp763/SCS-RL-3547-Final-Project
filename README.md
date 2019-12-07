@@ -27,9 +27,9 @@ We utilized the keras library to create a neural network that has state space as
 ![Keras Model](assets/kerasmodel.png)
 
 ## Agent Learning History<br>
-<center>
+
 ![Training Episode = 10](assets/Train_Episode_10.gif)<br>
-**EPISODE = 10**<br><br>
+<center> **EPISODE = 10** <br><br></center>
 ![Training Episode = 50](assets/Train_Episode_50.gif)<br>
 **EPISODE = 50**<br><br>
 ![Training Episode = 100](assets/Train_Episode_100.gif)<br>
@@ -38,7 +38,7 @@ We utilized the keras library to create a neural network that has state space as
 **EPISODE = 150**<br><br>
 ![Training Episode = 200](assets/Train_Episode_200.gif)<br>
 **EPISODE = 200**<br><br>
-</center>
+
 
 ## Agent Testing
 
