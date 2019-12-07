@@ -29,7 +29,7 @@ We utilized the keras library to create a neural network that has state space as
 ## Agent Learning History<br>
 
 ![Training Episode = 10](assets/Train_Episode_10.gif)<br>
-<center> **EPISODE = 10** <br><br></center>
+<p align="center">**EPISODE = 10**<br><br></p>
 ![Training Episode = 50](assets/Train_Episode_50.gif)<br>
 **EPISODE = 50**<br><br>
 ![Training Episode = 100](assets/Train_Episode_100.gif)<br>
