@@ -61,6 +61,22 @@ Once the agent was fully trained to land safely, the weights along with the Kera
 </p>
 <p align="center"><strong>Reward Vs. Episode Plot</strong></p>
 
+# Folder Structure
+```
+SCS-RL-3547-Final-Project
+│   assets (Git README images store directory)
+│   gym (Open AI Gym environment)
+│   modelweights (model history)
+│   │   LunarLander.h5 (keras model file)
+│   presentation
+│   │   Safe_Landings_In_Deep_Space_Presentation.ppsx (Presentation show file)
+│   │   Safe_Landings_In_Deep_Space_Presentation.pptx (Powerpoint file)
+│   Lunar_Lander_Keyboard_Play.ipynb (Human Keyboard input game play)
+│   REAMDE.md (readme file)
+│   Safe_Landings_Implementation.ipynb (Deep Q-Learning algorithm implementation for AI Agent)
+│   test_setup.ipynb (Jupyter notebook to test and check the gym environment along with LunarLander-V2)
+```
+
 ## Setup
 Libraries Used:
 - `Open AI Gym` (v0.15.4) - https://github.com/openai/gym
