@@ -51,6 +51,10 @@ EPISODE = 200<br><br>
 <p align="center"><strong>Reward Vs. Episode Plot</strong></p>
 
 ## Agent Testing
+Once the agent was fully trained to land safely, the weights along with the Keras model configuration was stored in a `modelweights` directory such that it can be later retrieved and we wont need to re-train the agent from scratch. The agent was tested for `100` episodes. Below is a sample of landing carried out by a fully trained agent.<br>
+<p align="center">
+<img src="assets/Test_Outcome.gif">
+</p>
 
 ## Setup
 Libraries Used:
