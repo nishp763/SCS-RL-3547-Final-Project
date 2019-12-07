@@ -23,7 +23,7 @@ Navigate a lander to its landing pad safely and have a safe touch down. A sample
 We used the Q-Learning Algorithm with a Deep Neural Network developed in Keras library. This algorithm is also known as the DQN algorithm. For more information on the algorithm please check out the paper *[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)*<br>
 
 ## Keras Model
-We utilized the keras library to create a neural network that has state space as the input layer and output layer is the actions recommended by the agent. The input layer has 8 nodes, then there is a hidden layer with 100 nodes and another hidden layer with 50 nodes. All hidden layers use the `relu` activation function. The output layer is a linear activation function with 4 nodes representing 4 discrete actions.<br>
+We utilized the keras library to create a neural network that has state space as the input layer and output layer is the actions recommended by the agent. The input layer has 8 nodes, then there is a hidden layer with 100 nodes and another hidden layer with 50 nodes. All hidden layers use the `relu` activation function. The output layer is a linear activation function with 4 nodes representing 4 discrete actions.<br><br>
 ![Keras Model](assets/kerasmodel.png)
 
 ## Setup
