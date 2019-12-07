@@ -10,15 +10,63 @@ Submitted By:
 
 ## Introduction
 ### Background
-Landing pad is always at coordinates (0,0). Coordinates are the first two numbers in state vector. Reward for moving from the top of the screen to landing pad and zero speed is about 100..140 points. If lander moves away from landing pad it loses reward back. Episode finishes if the lander crashes or comes to rest, receiving additional -100 or +100 points. Each leg ground contact is +10. Firing main engine is -0.3 points each frame. Solved is 200 points. Landing outside landing pad is possible. Fuel is infinite, so an agent can learn to fly and then land on its first attempt. Four discrete actions available: do nothing, fire left orientation engine, fire main engine, fire right orientation engine.</br>
+Rocket trajectory optimization is a classic topic in Optimal Control.<br><br>
+According to Pontryagin's maximum principle it's optimal to fire engine full throttle or turn it off. That's the reason this environment is OK to have discreet actions (engine on or off).<br><br>
+Landing pad is always at coordinates (0,0). Coordinates are the first two numbers in state vector. Reward for moving from the top of the screen to landing pad and zero speed is about 100..140 points. If lander moves away from landing pad it loses reward back. Episode finishes if the lander crashes or comes to rest, receiving additional -100 or +100 points. Each leg ground contact is +10. Firing main engine is -0.3 points each frame. Firing side engine is -0.03 points each frame. Solved is 200 points. Landing outside landing pad is possible. Fuel is infinite, so an agent can learn to fly and then land on its first attempt. Four discrete actions available: do nothing, fire left orientation engine, fire main engine, fire right orientation engine.<br><br>
 
 ### Goal
-Navigate a lander to its landing pad safely and have a safe touch down.
+Navigate a lander to its landing pad safely and have a safe touch down. A sample of heuristic landing is shown below.<br><br>
+<p align="center">
+<img src="assets/Test_Outcome.gif">
+</p>
+
+# Our Approach
+## Algorithm
+We used the Q-Learning Algorithm with a Deep Neural Network developed in Keras library. This algorithm is also known as the DQN algorithm. For more information on the algorithm please check out the paper *[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)*<br>
+
+## Keras Model
+We utilized the keras library to create a neural network that has state space as the input layer and output layer is the actions recommended by the agent. The input layer has 8 nodes, then there is a hidden layer with 100 nodes and another hidden layer with 50 nodes. All hidden layers use the `relu` activation function. The output layer is a linear activation function with 4 nodes representing 4 discrete actions.<br><br>
+<p align="center">
+<img src="assets/kerasmodel.png">
+</p>
+
+## Agent Learning History<br>
+<p align="center"><strong>
+<img src="assets/Train_Episode_10.gif"><br>
+EPISODE = 10<br><br>
+<img src="assets/Train_Episode_50.gif"><br>
+EPISODE = 50<br><br>
+<img src="assets/Train_Episode_100.gif"><br>
+EPISODE = 100<br><br>
+<img src="assets/Train_Episode_150.gif"><br>
+EPISODE = 150<br><br>
+<img src="assets/Train_Episode_200.gif"><br>
+EPISODE = 200<br><br>
+</strong></p>
+
+<br><br>
+<p align="center">
+<img src="assets/training_plot.png"><br>
+</p>
+<p align="center"><strong>Reward Vs. Episode Plot</strong></p>
+
+## Agent Testing
+Once the agent was fully trained to land safely, the weights along with the Keras model configuration was stored in a `modelweights` directory such that it can be later retrieved and we wont need to re-train the agent from scratch. The agent was tested for `100` episodes. Below is a sample of landing carried out by a fully trained agent.<br>
+<p align="center">
+<img src="assets/Test_Outcome.gif">
+</p>
+<br><br>
+<p align="center">
+<img src="assets/testing_plot.png"><br>
+</p>
+<p align="center"><strong>Reward Vs. Episode Plot</strong></p>
 
 ## Setup
 Libraries Used:
 - `Open AI Gym` (v0.15.4) - https://github.com/openai/gym
 - `Open AI Box2D-py` (v2.3.8) (Comes with gym) - https://github.com/openai/box2d-py
+- `Keras` (v2.2.5) - https://pypi.org/project/Keras/
+
 Anaconda Packages:
 - `Swig` (v3.0.12) (Anaconda Package) - https://anaconda.org/anaconda/swig
 - `pystan` (v2.19.1.1) (Anaconda Package) - https://anaconda.org/conda-forge/pystan
