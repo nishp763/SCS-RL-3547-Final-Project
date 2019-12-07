@@ -16,7 +16,9 @@ Landing pad is always at coordinates (0,0). Coordinates are the first two number
 
 ### Goal
 Navigate a lander to its landing pad safely and have a safe touch down. A sample of heuristic landing is shown below.<br><br>
-![Heuristic Landing](assets/Test_Outcome.gif)
+<p align="center">
+<img src="assets/Test_Outcome.gif">
+</p>
 
 # Our Approach
 ## Algorithm
@@ -25,20 +27,20 @@ We used the Q-Learning Algorithm with a Deep Neural Network developed in Keras l
 ## Keras Model
 We utilized the keras library to create a neural network that has state space as the input layer and output layer is the actions recommended by the agent. The input layer has 8 nodes, then there is a hidden layer with 100 nodes and another hidden layer with 50 nodes. All hidden layers use the `relu` activation function. The output layer is a linear activation function with 4 nodes representing 4 discrete actions.<br><br>
 <p align="center">
-<img src="assets/kerasmodel.png")>
+<img src="assets/kerasmodel.png">
 </p>
 
 ## Agent Learning History<br>
 <p align="center"><strong>
-<img src="assets/Train_Episode_10.gif")><br>
+<img src="assets/Train_Episode_10.gif"><br>
 EPISODE = 10<br><br>
-<img src="assets/Train_Episode_50.gif")><br>
+<img src="assets/Train_Episode_50.gif"><br>
 EPISODE = 50<br><br>
-<img src="assets/Train_Episode_100.gif")><br>
+<img src="assets/Train_Episode_100.gif"><br>
 EPISODE = 100<br><br>
-<img src="assets/Train_Episode_150.gif")><br>
+<img src="assets/Train_Episode_150.gif"><br>
 EPISODE = 150<br><br>
-<img src="assets/Train_Episode_200.gif)")><br>
+<img src="assets/Train_Episode_200.gif"><br>
 EPISODE = 200<br><br>
 </strong></p>
 
