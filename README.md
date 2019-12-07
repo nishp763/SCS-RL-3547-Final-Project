@@ -20,7 +20,7 @@ Navigate a lander to its landing pad safely and have a safe touch down. A sample
 
 # Our Approach
 ## Algorithm
-We used the Q-Learning Algorithm with a Deep Neural Network developed in Keras library. This algorithm is also known as the DQN algorithm. For more information on the algorithm please check out this paper ![Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)<br>
+We used the Q-Learning Algorithm with a Deep Neural Network developed in Keras library. This algorithm is also known as the DQN algorithm. For more information on the algorithm please check out this paper [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)<br>
 
 
 ## Setup
