@@ -25,7 +25,7 @@ We used the Q-Learning Algorithm with a Deep Neural Network developed in Keras l
 ## Keras Model
 We utilized the keras library to create a neural network that has state space as the input layer and output layer is the actions recommended by the agent. The input layer has 8 nodes, then there is a hidden layer with 100 nodes and another hidden layer with 50 nodes. All hidden layers use the `relu` activation function. The output layer is a linear activation function with 4 nodes representing 4 discrete actions.<br><br>
 <p align="center">
-![Keras Model](assets/kerasmodel.png)
+<img src="assets/kerasmodel.png")>
 </p>
 
 ## Agent Learning History<br>
