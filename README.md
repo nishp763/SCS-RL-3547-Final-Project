@@ -23,6 +23,7 @@ Libraries Used:
 - `Open AI Gym` (v0.15.4) - https://github.com/openai/gym
 - `Open AI Box2D-py` (v2.3.8) (Comes with gym) - https://github.com/openai/box2d-py
 - `Keras` (v2.2.5) - https://pypi.org/project/Keras/
+
 Anaconda Packages:
 - `Swig` (v3.0.12) (Anaconda Package) - https://anaconda.org/anaconda/swig
 - `pystan` (v2.19.1.1) (Anaconda Package) - https://anaconda.org/conda-forge/pystan
