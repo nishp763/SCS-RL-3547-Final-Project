@@ -34,6 +34,7 @@ We utilized the keras library to create a neural network that has state space as
 <p align="center"><strong>
 <img src="assets/Train_Episode_10.gif"><br>
 EPISODE = 10<br><br>
+  ***
 <img src="assets/Train_Episode_50.gif"><br>
 EPISODE = 50<br><br>
 <img src="assets/Train_Episode_100.gif"><br>
