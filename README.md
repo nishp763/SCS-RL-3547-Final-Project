@@ -30,15 +30,15 @@ We utilized the keras library to create a neural network that has state space as
 
 ## Agent Learning History<br>
 <p align="center"><strong>
-![Training Episode = 10](assets/Train_Episode_10.gif)<br>
+<img src="assets/Train_Episode_10.gif")><br>
 EPISODE = 10<br><br>
-![Training Episode = 50](assets/Train_Episode_50.gif)<br>
+<img src="assets/Train_Episode_50.gif")><br>
 EPISODE = 50<br><br>
-![Training Episode = 100](assets/Train_Episode_100.gif)<br>
+<img src="assets/Train_Episode_100.gif")><br>
 EPISODE = 100<br><br>
-![Training Episode = 150](assets/Train_Episode_150.gif)<br>
+<img src="assets/Train_Episode_150.gif")><br>
 EPISODE = 150<br><br>
-![Training Episode = 200](assets/Train_Episode_200.gif)<br>
+<img src="assets/Train_Episode_200.gif)")><br>
 EPISODE = 200<br><br>
 </strong></p>
 
