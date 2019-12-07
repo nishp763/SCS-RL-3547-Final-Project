@@ -55,6 +55,11 @@ Once the agent was fully trained to land safely, the weights along with the Kera
 <p align="center">
 <img src="assets/Test_Outcome.gif">
 </p>
+<br><br>
+<p align="center">
+<img src="assets/testing_plot.png"><br>
+</p>
+<p align="center"><strong>Reward Vs. Episode Plot</strong></p>
 
 ## Setup
 Libraries Used:
