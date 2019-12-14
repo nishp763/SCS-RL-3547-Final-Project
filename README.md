@@ -121,10 +121,10 @@ Setup Windows Environment Variable
 4. Restart your computer and now you should be ready to install the Open AI Gym as well as other required packages.
 
 ## Presentation
-- [PDF](https://github.com/nishp763/SCS-RL-3547-Final-Project/blob/nishp763/Final_Presentation_COPY.pdf)
-- [PowerPoint](https://github.com/nishp763/SCS-RL-3547-Final-Project/blob/nishp763/presentation/Safe_Landings_In_Deep_Space_Presentation.pptx)
+- [PDF](https://github.com/nishp763/SCS-RL-3547-Final-Project/blob/master/Final_Presentation_COPY.pdf)
+- [PowerPoint](https://github.com/nishp763/SCS-RL-3547-Final-Project/blob/master/presentation/Safe_Landings_In_Deep_Space_Presentation.pptx)
 
 ## References
 1. Shiva Verma, Train Your Lunar-Lander | Reinforcement Learning | OpenAIGYM, https://towardsdatascience.com/solving-lunar-lander-openaigym-reinforcement-learning-785675066197
 2. Shiva Verma, OpenAIGym, https://github.com/shivaverma/OpenAIGym/tree/master/lunar-lander/discrete
-3. OpenAI, LunarLander-v2,https://gym.openai.com/envs/LunarLander-v2/
+3. OpenAI, LunarLander-v2, https://gym.openai.com/envs/LunarLander-v2/
